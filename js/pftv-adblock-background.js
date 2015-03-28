@@ -1,4 +1,4 @@
-var pftAdblockBackground = {
+var pftvAdblockBackground = {
     init : function() {
         chrome.runtime.onInstalled.addListener(function() {
             chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
@@ -15,4 +15,4 @@ var pftAdblockBackground = {
 	}
 };
 
-pftAdblockBackground.init();
+pftvAdblockBackground.init();

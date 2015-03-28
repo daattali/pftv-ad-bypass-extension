@@ -1,23 +1,23 @@
-var pftAdblockInject = {
+var pftvAdblockInject = {
 	init : function() {
 		chrome.storage.sync.get({
             enabled : true
         }, function(storage) {
 			if (storage.enabled) {
-				pftAdblockInject.attemptBypassAd();
+				pftvAdblockInject.attemptBypassAd();
 			}
         });   
 		
 	},
 
 	attemptBypassAd : function() {
-		if (!pftAdblockInject.isAdPage()) {
+		if (!pftvAdblockInject.isAdPage()) {
 			return;
 		}
-		if (pftAdblockInject.getVideoPageUrl() === null) {
+		if (pftvAdblockInject.getVideoPageUrl() === null) {
 			return;
 		}
-		pftAdblockInject.bypassAd()
+		pftvAdblockInject.bypassAd()
 	},	
 	
 	isExtensionEnabled : function() {
@@ -29,14 +29,14 @@ var pftAdblockInject = {
 	},	
 	
 	getVideoPageUrl : function() {
-		var lnk = pftAdblockInject.getUrlParam("lnk");
+		var lnk = pftvAdblockInject.getUrlParam("lnk");
 		return (lnk === null ? null : decodeURIComponent(lnk));
 	},
 	
 	bypassAd : function() {	
-		window.location.href = pftAdblockInject.getVideoPageUrl();
+		//window.location.href = pftvAdblockInject.getVideoPageUrl();
 		
-		pftAdblockInject.addOverlay();
+		pftvAdblockInject.addOverlay();
 	},
 	
 	getUrlParam : function(name) {
@@ -49,8 +49,8 @@ var pftAdblockInject = {
 	},
 	
 	addOverlay : function() {
-		document.body.innerHTML += '<div id="pft-adblock-overlay">Redirecting to video...</strong>';
+		document.body.innerHTML += '<div id="pftv-adblock-overlay">Redirecting to video...</strong>';
 	}
 };
 
-pftAdblockInject.init();
+pftvAdblockInject.init();

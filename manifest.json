@@ -4,12 +4,12 @@
   "manifest_version": 2,
   "description": "Project Free TV serves a 10-second ad page before allowing users to continue to the video - this extension bypasses the ad page.",
   "page_action": {
-    "default_popup": "html/pft-adblock-popup.html",
+    "default_popup": "html/pftv-adblock-popup.html",
     "default_title": "Project Free TV Ad Bypass"
   },
   "background": {
     "scripts": [
-      "js/pft-adblock-background.js"
+      "js/pftv-adblock-background.js"
     ],
     "persistent": false
   },
@@ -17,7 +17,7 @@
 	"declarativeContent",
 	"storage"
   ],
-  "options_page": "html/pft-adblock-popup.html",
+  "options_page": "html/pftv-adblock-popup.html",
   "icons": {
     "16": "img/icon-16.png",
     "48": "img/icon-48.png",
@@ -29,12 +29,12 @@
         "http://www.free-tv-video-online.info/*"
       ],
       "js": [
-        "js/pft-adblock-inject.js"
+        "js/pftv-adblock-inject.js"
       ],
 	  "css": [
-	    "css/pft-adblock-inject.css"
+	    "css/pftv-adblock-inject.css"
 	  ]
     }
   ],
-  "homepage_url": "https://github.com/daattali/pft-ad-bypass-extension"
+  "homepage_url": "https://github.com/daattali/pftv-ad-bypass-extension"
 }
