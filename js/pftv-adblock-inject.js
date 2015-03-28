@@ -34,7 +34,7 @@ var pftvAdblockInject = {
 	},
 	
 	bypassAd : function() {	
-		//window.location.href = pftvAdblockInject.getVideoPageUrl();
+		window.location.href = pftvAdblockInject.getVideoPageUrl();
 		
 		pftvAdblockInject.addOverlay();
 	},
