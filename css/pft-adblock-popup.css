@@ -1,0 +1,39 @@
+body {
+  width: 350px;
+  text-align: center;
+}
+
+#pft-adblock-title {
+  font-size:1.4em;
+  margin-bottom: 10px;
+}
+
+#pft-adblock-options {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+#pft-adblock-options-enabled {
+  margin-top: 7px;
+}
+
+#pft-adblock-options input[type=checkbox] {
+  position: relative;
+  top: 2px;
+}
+
+#pft-adblock-footer {
+  margin-top: 7px;
+  position: relative;
+}
+
+#pft-adblock-copyright {
+  color: #888888;
+  font-size: 1em;
+}
+
+#pft-adblock-link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: inherit;
+}
