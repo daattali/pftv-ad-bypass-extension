@@ -3,8 +3,12 @@
 _[Dean Attali](http://deanattali.com)_    
 _March 2015_    
 _Source code available [on GitHub](https://github.com/daattali/pftv-ad-bypass-extension)_     
-_Get the extension at the [Chrome Web Store](TODO)_  
+_Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/project-free-tv-ad-bypass/modfjcgeknfglkdgckkomdcgokkjaadd)_  
 
+
+## Install
+
+Installation is extremely easy: just go to [the Chrome extension store](https://chrome.google.com/webstore/detail/project-free-tv-ad-bypass/modfjcgeknfglkdgckkomdcgokkjaadd) and click on the "Add to Chrome" button.
 
 ## Description
 
@@ -12,7 +16,7 @@ Project Free TV is a great site that hosts links to streams of movies and TV sho
 
 It's a very simple extension, there isn't much to it - that's all it does.
 
-All you have to do if download the extension, and then next time you go to Project Free TV, any link that you click on will automatically skip the ad.
+All you have to do if download the extension, and the next time you go to Project Free TV, any link that you click on will automatically skip the ad.
 
 ## My other extensions
 
