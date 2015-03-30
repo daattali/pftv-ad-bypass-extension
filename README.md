@@ -6,7 +6,7 @@ _Source code available [on GitHub](https://github.com/daattali/pftv-ad-bypass-ex
 _Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/project-free-tv-ad-bypass/modfjcgeknfglkdgckkomdcgokkjaadd)_  
 
 
-## Install
+## Installation
 
 Installation is extremely easy: just go to [the Chrome extension store](https://chrome.google.com/webstore/detail/project-free-tv-ad-bypass/modfjcgeknfglkdgckkomdcgokkjaadd) and click on the "Add to Chrome" button.
 
