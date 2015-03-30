@@ -16,6 +16,12 @@ Project Free TV is a great site that hosts links to streams of movies and TV sho
 
 It's a very simple extension, there isn't much to it - that's all it does.
 
+## Screenshot
+
+![Screenshot](./img/doc/screenshot-enabled.png)
+
+When you reach an ad page, this extension will detect it automatically and immediately redirect to the video.
+
 ## My other extensions
 
 [Google Slides Auto Resize Speaker Notes](https://github.com/daattali/gslides-betternotes-extension) - the slides thumbnails in the Speaker Notes window of Google Slides are tiny. This extension dynamically resizes the slides to be more readable based on the window size.
