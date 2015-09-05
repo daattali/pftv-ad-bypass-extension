@@ -12,7 +12,11 @@ Installation is extremely easy: just go to [the Chrome extension store](https://
 
 ## Description
 
-Project Free TV is a great site that hosts links to streams of movies and TV shows. However, it recently (March 2015) started showing an ad page on every link that the user can't skip for at least 10 seconds before being able to continue to the video.  I was not happy with having to wait 10 seconds for every link that I clicked, so I built this extension to redirect to the video from the ad page automatically without waiting 10 seconds.
+Project Free TV is a great site that hosts links to streams of movies and TV shows. However, it recently (July 2015) started showing an interstitial ad page that forces you to click on a button to go to the actual video page.  This extension bypasses that page and lets you go straight to the video. Simple.
+
+The first version of this extension (March 2015) was because PFTV started showing an ad page on every link that the user can't skip for at least 10 seconds before being able to continue to the video.  I was not happy with having to wait 10 seconds for every link that I clicked, so I built this extension to redirect to the video from the ad page automatically without waiting 10 seconds.
+
+The original PFTV website is shut down and now uses a different URL, so this is updated as of September 5, 2015.
 
 It's a very simple extension, there isn't much to it - that's all it does.
 

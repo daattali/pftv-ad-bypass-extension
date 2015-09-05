@@ -5,7 +5,7 @@ var pftvAdblockBackground = {
             chrome.declarativeContent.onPageChanged.addRules([{
                 conditions: [
                     new chrome.declarativeContent.PageStateMatcher({
-                        pageUrl: { urlMatches: '.*/www.free-tv-video-online.info/.*' },
+                        pageUrl: { urlMatches: '.*/projectfreetv.so/.*' },
                     })
                 ],
                 actions: [ new chrome.declarativeContent.ShowPageAction() ]

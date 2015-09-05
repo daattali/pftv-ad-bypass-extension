@@ -1,5 +1,6 @@
 var pftvAdblockInject = {
 	init : function() {
+
 		chrome.storage.sync.get({
             enabled : true
         }, function(storage) {
@@ -14,10 +15,10 @@ var pftvAdblockInject = {
 		if (!pftvAdblockInject.isAdPage()) {
 			return;
 		}
-		if (pftvAdblockInject.getVideoPageUrl() === null) {
-			return;
-		}
-		pftvAdblockInject.bypassAd()
+		//if (pftvAdblockInject.getVideoPageUrl() === null) {
+		//	return;
+		//}
+		pftvAdblockInject.bypassAd();
 	},	
 	
 	isExtensionEnabled : function() {
@@ -25,7 +26,10 @@ var pftvAdblockInject = {
 	},
 	
 	isAdPage : function() {
-		return (window.location.pathname.indexOf("interstitial2.html") != -1)
+		//return (window.location.pathname.indexOf("interstitial2.html") != -1)
+    return (window.location.pathname.indexOf("watch") != -1) &&
+           (window.location.search.indexOf("aff_id") != -1) &&
+           document.getElementsByClassName("myButton").length > 0;
 	},	
 	
 	getVideoPageUrl : function() {
@@ -34,9 +38,9 @@ var pftvAdblockInject = {
 	},
 	
 	bypassAd : function() {	
-		window.location.href = pftvAdblockInject.getVideoPageUrl();
-		
+		//window.location.href = pftvAdblockInject.getVideoPageUrl();
 		pftvAdblockInject.addOverlay();
+    document.getElementsByClassName("myButton")[0].click();
 	},
 	
 	getUrlParam : function(name) {

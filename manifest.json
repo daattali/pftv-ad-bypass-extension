@@ -1,8 +1,8 @@
 {
   "name": "Project Free TV Ad Bypass",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "manifest_version": 2,
-  "description": "Project Free TV serves a 10-second ad page before allowing users to continue to the video - this extension bypasses the ad page.",
+  "description": "Project Free TV brings you to an interstitial page before letting you continue to the video - this extension bypasses that page",
   "page_action": {
     "default_popup": "html/pftv-adblock-popup.html",
     "default_title": "Project Free TV Ad Bypass"
@@ -26,7 +26,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://www.free-tv-video-online.info/*"
+        "http://www.free-tv-video-online.info/*",
+        "http://projectfreetv.so/*"
       ],
       "js": [
         "js/pftv-adblock-inject.js"
