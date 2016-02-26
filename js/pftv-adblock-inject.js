@@ -40,7 +40,7 @@ var pftvAdblockInject = {
 	bypassAd : function() {	
 		//window.location.href = pftvAdblockInject.getVideoPageUrl();
 		pftvAdblockInject.addOverlay();
-    document.getElementsByClassName("myButton")[0].click();
+    document.getElementsByClassName("myButton")[1].click();
 	},
 	
 	getUrlParam : function(name) {
