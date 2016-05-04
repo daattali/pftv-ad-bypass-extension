@@ -3,7 +3,7 @@
 _[Dean Attali](http://deanattali.com)_    
 _March 2015_    
 _Source code available [on GitHub](https://github.com/daattali/pftv-ad-bypass-extension)_     
-_Get the extension at the [Chrome Web Store](https://chrome.google.2com/webstore/detail/project-free-tv-ad-bypass/modfjcgeknfglkdgckkomdcgokkjaadd)_  
+_Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/project-free-tv-ad-bypass/modfjcgeknfglkdgckkomdcgokkjaadd)_  
 
 
 ## Installation
