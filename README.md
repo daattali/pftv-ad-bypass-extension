@@ -1,7 +1,7 @@
 # Project Free TV Ad Bypass (Chrome extension)
 
-_[Dean Attali](http://deanattali.com)_    
-_March 2015_    
+> *Copyright 2015 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
+
 _Source code available [on GitHub](https://github.com/daattali/pftv-ad-bypass-extension)_     
 _Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/project-free-tv-ad-bypass/modfjcgeknfglkdgckkomdcgokkjaadd)_  
 
